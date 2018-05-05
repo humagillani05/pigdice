@@ -1,0 +1,23 @@
+.container-fluid{
+background-image: url("3D-Red-Dice-HD-Wallpapers.png");
+background-repeat: no-repeat;
+background-size: cover;
+  padding: 87px
+}
+.test-box {
+    border: 5px solid grey;
+background-color: grey;
+opacity: 0.5;
+ margin: 120px;
+
+  }
+#pone{
+padding: 20px;
+font-size: 50px;
+color:darkred;
+}
+#ptwo{
+padding: 20px;
+font-size: 50px;
+color: red;
+}

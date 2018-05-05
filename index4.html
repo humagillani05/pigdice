@@ -1,0 +1,81 @@
+<html>
+<head>
+  <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+  <script src="js/script1.js"></script>
+  <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+  <link href="https://fonts.googleapis.com/css?family=Monoton|Copse|Faster+One|Metal+Mania" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <title>pig dice</title>
+</head>
+<body>
+  <!--backround container-->
+  <div class="container-fluid" id="con1">
+    <div id="gameScreen">
+<!--part1-->
+<div class="row" id="row1">
+<div class="col-md-4" id="log"><img src="images.jpg"></div>
+   <h2 class="col-md-8" id="head">Pig DiCE</h2>
+ </div>
+<!--part1close-->
+
+<!--part2-->
+<div class="row" id="row2">
+  <!--col1-->
+<div class="col-md-4" id="play1"><h2>Player 1</h2>
+  <div class="text-box" id="player1current">0</div></br></br>
+  <input type="number" id="total1">
+</div>
+<!--col2-->
+  <div class="col-md-4" id="di1">0</div>
+  <!--col3-->
+<div class="col-md-4" id="play2"><h2>Player 2</h2>
+<div class="text-box" id=player2current>0</div></br></br>
+  <input type="number" id="total2">
+</div>
+ </div>
+<!--part2close-->
+
+
+<!--part3-->
+<div class="row" id="row3">
+    <button  onclick="roll()" id="rollButton">Roll It</button>
+</div>
+<!--part2close-->
+
+
+<!--winneralert-->
+<div id="player1Win">
+        <h2> you are the winner!</h2>
+        <div class="row">
+          <div class="col-xs-6">
+            <img src="emoji.jpg" class="img-responsive">
+          </div>
+          <div class="col-xs-6">
+            <img src="download.png" class="animated bounceOutUp img-responsive">
+          </div>
+        </div>
+        </div>
+        <!--alertclose-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--end-->
+</div>
+</div>
+
+<!--containerclose-->
+</body>
+</html>

@@ -1,0 +1,83 @@
+/*header*/
+  #row1{
+    padding: 5px;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    border-bottom-color:red;
+  }
+
+  #log{
+    padding-left: 100px
+  }
+  #head{
+    color: white;
+    font-size: 80px;
+font-family: 'Metal Mania', cursive;
+    padding-left: 90px;
+    padding-top: 40px;
+  }
+#pi1{
+  height: 100px
+}
+#pi2{
+  height: 100px
+}
+
+  /*body*/
+  #row2{
+    padding: 35px;
+    background-color: black
+  }
+  #play1{
+    color: white;
+    padding-left:  55px;
+    background-color: grey;
+    opacity: 0.5;
+    padding: 40px;
+  }
+  #player1current{
+    padding: 30px
+  }
+
+  #play2{
+    color: white;
+    padding-left:  100px;
+    background-color: grey;
+    opacity: 0.5;
+    padding: 40px;
+  }
+  #player2current{
+    padding: 30px
+  }
+
+/*footer*/
+#row3{
+  padding: 30px;
+  background-color: black;
+}
+#rollButton{
+  color: white;
+background-color: C80000;
+    margin-left: 550px;
+    font-size: 40px;
+  }
+
+  #di1{
+    padding-left: 14%;
+    padding-top: 10%;
+    font-size: 50px;
+    color: white;
+  }
+  #holdButton{
+    color: white;
+  background-color: C80000;
+      margin-left: 550px;
+      font-size: 40px;
+    }
+
+/*--winneralert--*/
+#player1Win{
+display: none;
+
+}

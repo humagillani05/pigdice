@@ -1,0 +1,25 @@
+.container-fluid{
+background-image: url("3D-Red-Dice-HD-Wallpapers.png");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 10%;
+}
+#part1{
+padding: 10%;
+background-image: url("giphy.");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.test-box {
+  border: 5px solid grey;
+background-color: grey;
+opacity: 0.8;
+ margin: 120px;
+}
+#chalo{
+  color: red;
+}
+h2:hover{
+   color: black;
+
+}
